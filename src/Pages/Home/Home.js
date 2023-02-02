@@ -24,7 +24,7 @@ const fetchData = async () => {
       })
   }, [])
 
-  return <div className="my-12 mx-20 lg:mx-40">
+  return <div className="my-2 mx-2 lg:my-12 lg:mx-40">
     {info.map(data=><Details key={data.id} data={data}></Details>)}
   </div>;
 };
